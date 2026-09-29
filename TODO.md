@@ -3,6 +3,8 @@
 Residuals from the v1 QA rounds. The rules already in place are in
 `engine/tools/packbuilder/langs/fa.py` and summarised in the README.
 
+Republish 09e90bc: sentence spans (16344/16542 linked words placed); inflected forms now cloze targets.
+
 ## Engine submodule
 - `engine/` must point at a vocab-engine commit that includes `langs/fa.py`
   and the `pack_json_extra` hook. Until then, build and check with
