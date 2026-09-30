@@ -7,7 +7,7 @@
  "rate": 24000,
  "peak": -1.0,
  "count": 5610,
- "generated": "2026-09-26T15:17:31Z",
+ "generated": "2026-09-30T01:12:42Z",
  "licence": "CC0 (voice dataset tts.datacula.com; rhasspy/piper-voices MODEL_CARD)",
  "files": {
   "p/p0001-0": "p/p0001-0.17a286d2.opus",
@@ -2619,7 +2619,7 @@
   "s/s2055": "s/s2055.19b35130.opus",
   "s/s2056": "s/s2056.d5b341b7.opus",
   "s/s2057": "s/s2057.73956e40.opus",
-  "s/s2058": "s/s2058.a05af231.opus",
+  "s/s2058": "s/s2058.e22fd8dc.opus",
   "s/s2059": "s/s2059.5dafd396.opus",
   "s/s2060": "s/s2060.f59815ca.opus",
   "s/s2061": "s/s2061.58ff578e.opus",

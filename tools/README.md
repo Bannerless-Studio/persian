@@ -133,7 +133,11 @@ QA helpers run with `PYTHONPATH=engine/tools python3 -m packbuilder {scan,sample
   Suicide/self-harm sentences are dropped too as of engine ff88f44 (2 written
   sentences); خودکشی keeps one neutral written example in
   `generated_examples.tsv`. A word whose gloss names killing, murder, weapons or
-  blood ships at B1 only: کشتن, خون, قتل (were A1), اسلحه, قاتل, سلاح (were A2).
-  Ranks, ids and glosses did not change. The pack has 3,025 sentences. A1/A2 glosses
+  blood ships at B1 only: کشتن, خون, قتل (were A1), اسلحه, قاتل, سلاح (were A2);
+  engine ef44c6e adds سم "poison" and بمب "bomb" (were A2), and the level quotas
+  pull تمرین and راحتی up from B1 to A2. سم's 4-word written example (below the B1
+  minimum) was rewritten in place in `generated_sentences.tsv` so no sentence id moved.
+  Ids did not change; the rewrite swapped nine pairs of adjacent frequency ranks.
+  The pack has 3,025 sentences. A1/A2 glosses
   are scanned too; one sense of کردن was skipped by that scan. Four Tatoeba sentences
   with text errors are dropped by text match.

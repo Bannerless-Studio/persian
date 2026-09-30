@@ -4,6 +4,7 @@ Residuals from the v1 QA rounds. The rules already in place are in
 `engine/tools/packbuilder/langs/fa.py` and summarised in the README.
 
 Republish 09e90bc: sentence spans (16344/16542 linked words placed); inflected forms now cloze targets.
+Republish ef44c6e: سم, بمب A2→B1 (quota: تمرین, راحتی B1→A2); یعنی "that is, I mean, meaning"; سم written example rewritten in place + 1 clip rendered; deleted override keys جناب|noun, حالی|adv, خواسته|adj, دیده|noun, سری|noun, فوق|noun; set-counter and no-voice planner fixes
 
 ## Engine submodule
 - `engine/` must point at a vocab-engine commit that includes `langs/fa.py`
