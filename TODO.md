@@ -154,3 +154,7 @@ Republish ef44c6e: سم, بمب A2→B1 (quota: تمرین, راحتی B1→A2);
   serves آمار and کم کردن, which replaced two corpus examples (s2760, s2296).
   Sentences 3,030 -> 3,025 (13 removed, 8 added, by text). passages.json unchanged.
 
+
+## Republish 10706a9 (2026-10-08, port wave 3)
+- Republish 10706a9: typed modes, day-aware scheduling, reading rotation, goals, pairs, frequency tiers, Progress v2, redesigned tabs, session estimates. Pack diff vs 264e43d: every word gains `ft` (100 ambient / 1385 core / 515 peripheral), pack.json gains the generic flag set + `eta`; nothing else (tools/eta.json from `eta_checks --calibrate --sessions 600`). Recorded audio untouched: audio.version 2, manifest unchanged, `packbuilder audio --check` 5610 clips wanted, 0 missing.
+- Migration proof: rollback hash 264e43d820a0789c721227895e21d140f0483c21; previous live md5 index e58424d6a59e3c72b31985b90d49c7f3, sw bbdbf4198fdb2beb70c596073026f791. Storage: new fields day/sn/t/u/f/p/pm/pv/pause/read.done s,ls/today.tw on first use; boot writes nothing; previous build ef44c6e/aa00571 carries them (migration [port] 9/9).

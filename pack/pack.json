@@ -169,5 +169,47 @@
   "audio": {
     "voice": "fa_IR-ganji_adabi-medium",
     "version": 2
+  },
+  "dayAware": true,
+  "typedFrom": [
+    "written"
+  ],
+  "glossFocus": true,
+  "glossStyle": "primary",
+  "helpClose": true,
+  "readAnswerBlock": true,
+  "optsMix": true,
+  "pauseNew": true,
+  "listenQuestions": "all",
+  "readRotation": true,
+  "wordsBy": "typed",
+  "progressMap": {
+    "goals": [
+      {
+        "upTo": "A1",
+        "label": "survive a trip: greet, order, count, buy"
+      },
+      {
+        "upTo": "A2",
+        "label": "daily life: directions, simple chat, short notices"
+      },
+      {
+        "upTo": "B1",
+        "label": "follow a slow drama with subtitles"
+      }
+    ]
+  },
+  "pairs": true,
+  "freqTiers": true,
+  "progressView": "v2",
+  "appView": "v2",
+  "levelGate": 0.7,
+  "eta": {
+    "gain": [
+      0.00531644885365367,
+      0.0031668475876959817,
+      0.0027082008076777016
+    ],
+    "known": 7.605015736388784
   }
 }
