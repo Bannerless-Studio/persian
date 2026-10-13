@@ -37,7 +37,7 @@ Candidate pool: 6,789 (lemma, POS) keys in blended-rank order, one POS per lemma
 | profanity (hand list) | 1 | ریدن |
 
 Forced A1 items (days, Iranian months, seasons, numbers 0-20 + tens + صد/هزار, colours, greetings, pronouns, question words, core prepositions/conjunctions, five light verbs, A1 core list): 298/298 included.
-Word ids reused from v1 for unchanged (lemma, pos): 1,999; the rest are new ids above w2000 (v1 ids of words whose POS/lemma was wrong are retired, not reassigned).
+Word ids reused from v1 for unchanged (lemma, pos): 2,000; the rest are new ids above w2000 (v1 ids of words whose POS/lemma was wrong are retired, not reassigned).
 
 Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1184, 'adj': 310, 'verb': 301, 'adv': 73, 'prep': 32, 'num': 32, 'pron': 24, 'conj': 18, 'det': 16, 'intj': 8, 'part': 1, 'phrase': 1}.
 
