@@ -44,6 +44,7 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1184, 'adj': 310, 'verb
 ## Sentences
 
 - Final sentences: **3,025**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
+- Sentence ids (`tools/sentence_ids_v1.json`): 3,025 kept, 0 new, 0 retired.
 - Word coverage: 0 = 0, 1 = 7, 2 = 1993.
 - Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 5,580. Rejected for a content lemma outside pack/top-3000: 3,443.
 - Primary word level of each sentence: {'B1': 1172, 'A1': 729, 'A2': 1124}.
@@ -95,7 +96,7 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1184, 'adj': 310, 'verb
   37 دیدن [verb] to see; (آسیب دیدن) to be damaged
   38 فقط [adv] only, just
   39 خیلی [adv] very, a lot
-  40 اما [conj] but
+  40 اما [conj] but, however
   41 هر [det] every, each
   42 همه [pron] all, everyone, everything
   43 پس [adv] so, then; back; (پس از) after
@@ -149,7 +150,7 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1184, 'adj': 310, 'verb
   91 وقت [noun] time
   92 دختر [noun] girl; daughter
   93 زمان [noun] time; age, era
-  94 راه [noun] way
+  94 راه [noun] road, way; path
   95 ماندن [verb] to stay, to remain
   96 چند [det] how many; a few, several
   97 خوردن [verb] to eat; to hit, to get (light verb)
@@ -172,5 +173,7 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1184, 'adj': 310, 'verb
 - passages.json byte-identical; double build byte-identical; ./check.sh green.
 
 - 2026-09-25 engine bump: 072795d (voice-init fix, no-voice notice timing, word ceiling). Persian was already rebuilt with the shared word-level ceiling; words/sentences/passages are byte-identical to the previous build. No rank, id, level or gloss changed.
+
+- 2026-10-14 gloss and tier QA pass (hand-written, preserved): 356 glosses fixed in `tools/gloss_overrides.json` (every word read against its `en` as typed cue): 209 sense order / tidy (B1-common sense first, for example "weird" to "strange, weird"), 112 identical-`en` twins disambiguated with a qualifier (first sense of the rarer or formal twin: "(formal)", "(literary)", "(field of study)"), 19 untypeable primaries (bracket-first, "-able", "(question particle)" moved behind a short label), 11 wrong-POS senses, 5 register/form. Kept true synonyms (اما/ولی, بی/بدون, اسم/نام, حرف زدن/صحبت کردن and similar) for the engine's syn handling. 150 tier moves in `tools/tiers_overrides.json` (by word id): 115 spoken basics peripheral -> core (all 60 forced A1 numbers/days/months/colours/seasons/food, 29 A2, 26 B1), 29 formal/literary/war-genre core -> peripheral, 6 ambient content words -> core (خدا مورد حال وجود داشتن انجام دادن نشان دادن). Sample seed 505: 59/60 words, 59/60 sentences, 300/301 links correct before the one sense gap (رد) was fixed. Rebuilt with the shared builder at vocab-engine e1559f8: word ids, ranks, order, pron unchanged; the gloss edits alone change no sentence and no link. `tools/sentence_ids_v1.json` was bootstrapped from the final text but the builder assigns ids before the Persian finishing pass (ZWNJ, yeh/kaf): 263 ids now hold the builder's pre-finish text so they carry by text.
 
 <!-- manual:end -->
