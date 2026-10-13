@@ -170,19 +170,9 @@
     "voice": "fa_IR-ganji_adabi-medium",
     "version": 2
   },
-  "dayAware": true,
   "typedFrom": [
     "written"
   ],
-  "glossFocus": true,
-  "glossStyle": "primary",
-  "helpClose": true,
-  "readAnswerBlock": true,
-  "optsMix": true,
-  "pauseNew": true,
-  "listenQuestions": "all",
-  "readRotation": true,
-  "wordsBy": "typed",
   "progressMap": {
     "goals": [
       {
@@ -199,16 +189,6 @@
       }
     ]
   },
-  "pairs": true,
-  "freqTiers": true,
-  "progressView": "v2",
-  "appView": "v2",
-  "levelGate": 0.7,
-  "placementWhole": true,
-  "placementEarlyStop": true,
-  "placedRead": true,
-  "placedKnown": true,
-  "pronUntilPrimer": true,
   "eta": {
     "curve": [
       [
