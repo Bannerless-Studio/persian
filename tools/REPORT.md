@@ -37,22 +37,23 @@ Candidate pool: 6,789 (lemma, POS) keys in blended-rank order, one POS per lemma
 | profanity (hand list) | 1 | ریدن |
 
 Forced A1 items (days, Iranian months, seasons, numbers 0-20 + tens + صد/هزار, colours, greetings, pronouns, question words, core prepositions/conjunctions, five light verbs, A1 core list): 298/298 included.
-Word ids reused from v1 for unchanged (lemma, pos): 1,999; the rest are new ids above w2000 (v1 ids of words whose POS/lemma was wrong are retired, not reassigned).
+Word ids reused from v1 for unchanged (lemma, pos): 2,000; the rest are new ids above w2000 (v1 ids of words whose POS/lemma was wrong are retired, not reassigned).
 
 Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1183, 'adj': 311, 'verb': 301, 'adv': 73, 'prep': 32, 'num': 32, 'pron': 24, 'conj': 18, 'det': 16, 'intj': 8, 'part': 1, 'phrase': 1}.
 
 ## Sentences
 
-- Final sentences: **3,025**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
-- Sentence ids (`tools/sentence_ids_v1.json`): 3,021 kept, 4 new (s3026, s3027, s3028, s3029), 4 retired.
+- Final sentences: **3,164**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
+- Sentence ids (`tools/sentence_ids_v1.json`): 3,164 kept, 0 new, 13 retired.
 - Word coverage: 0 = 0, 1 = 7, 2 = 1993.
-- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 5,577. Rejected for a content lemma outside pack/top-3000: 3,446.
-- Primary word level of each sentence: {'B1': 1174, 'A1': 729, 'A2': 1122}.
+- `tools/bad_sentences.txt`: 2 entries matched no corpus row: 'اما پر هایش رنگ روشن دارد و به زودی پیدا شده می\u200cتواند.', 'او چطور در یک زمان هم بسیار بزرگ و هم بسیار کوچک بوده می\u200cتواند؟'.
+- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 5,728. Rejected for a content lemma outside pack/top-3000: 3,721.
+- Primary word level of each sentence: {'B1': 1195, 'A2': 1164, 'A1': 805}.
 - Token-length distribution of the final set:
 
 | tokens | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| sentences | 51 | 287 | 871 | 750 | 505 | 252 | 127 | 81 | 41 | 33 | 14 | 13 |
+| sentences | 56 | 312 | 909 | 768 | 527 | 263 | 137 | 88 | 41 | 35 | 15 | 13 |
 
 ## Top 100 by rank (lemma [pos] gloss)
 

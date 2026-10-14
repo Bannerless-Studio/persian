@@ -1,0 +1,37 @@
+# Story sentences (Let's Read Asia Dari) dropped by the 2026-10-15 hand audit: wrong or loose pair, garbled Dari, fragment.
+چی میشد اگر اسب ها کشتی های هوایی می‌بودند؟  # What if houses were rocket ships?
+تمام تابستان همانطور باقی می‌ماندند.  # They could last all summer.
+روز بعد یک فیل بزرگ.  # Another day, a giant elephant.
+چی یک رنگین کمان جالب رنگ ها!  # What a wonderful rainbow of colours!
+اعضای خانواده به سویش دیده همه خنده کردند.  # Her family looks at her and giggles.
+میبینم پدر هم کمک میکند.  # Dad helps with the balloons.
+می‌بینم که مادر بزرگ هم کمک می‌کند.  # Grandma helps with the dress.
+می‌بینم که پدر بزرگ هم کمک می‌کند.  # Grandpa helps with the bicycle.
+بنا بر من میتوانم به بدن خود گوش بدهم.  # So that I can listen to my own body.
+ما به بچه ها خیره شد.  # Ma glared at the boys.
+اگر یک مرغ میتوانست برقصد شاید سریع می‌رقصید.  # If a chicken could dance, it would dance with its wings.
+اگر یک مار میتوانست برقصد شاید زیبا می‌رقصید.  # If a snake could dance, it would dance on its tail.
+آنها در حال شکستن چوب هستند.  # They are dragging the timber.
+مادر بن را سرزنش گفت .  # Mom scolds Bin.
+باران در حال بریدن است.  # It keeps raining.
+هر یک تر هستند.  # Everyone is wet.
+فیل یک قطعه چوب را می‌کند.  # The elephant lumbers.
+دوم دوم یک کیک بزرگ دارد .  # Dom Dom has one big cake.
+خواهر و دوم دوم همچنان کیک را خوردند.  # Sister and Dom Dom eat the cake too.
+او دست او نمیتواند به قلم برسد.  # She can't reach the pen.
+در هر گوشه قلم های رنگ آمیزی بود.  # There were tins of paint everywhere.
+او از تاکیو است.  # I am from Takeo.
+ما می‌بینیم که برادر هم کمک می‌کند.  # Brother helps with the balloons.
+ما همه کمک می‌کنیم!  # Everyone wants to help!
+حالا چطور انها را پیدا کند؟  # "How will I find them now?"
+آنها به طرف ساحل پرواز میکنند.  # They are flying to the lake.
+# Review 2026-10-15 (story-fa-review.md): wrong sense, garbled, Dari potential, wrong term, loose, fragment
+پرندگان در حال خندیدن هستند.  # The birds are chirping.
+کسی با چشمان گوشهای من.  # Someone with my eyes my ears.
+بسیار بزرگ تا در پشت پدر خود بالا شود؟  # Too big to climb up on Dadu's back?
+او چطور در یک زمان هم بسیار بزرگ و هم بسیار کوچک بوده می‌تواند؟  # How can she be too big and too small all at once?
+اما پر هایش رنگ روشن دارد و به زودی پیدا شده می‌تواند.  # But his feathers are so bright that spotting him is easy.
+تارا گفت:«آه! من به خواندن آن کتاب توقف دادم.»  # "Oh my," Tra said. "I stopped reading it."
+او خوش نداشت که کسی بالایش فریاد بزند.  # She doesn't like being yelled at.
+فعلا جیتو نمی‌تواند مطالعه کند.  # Now Jitu can't read at all.
+ایا اینجا کسی؟  # Is there anyone?

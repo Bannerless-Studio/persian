@@ -139,6 +139,13 @@
     "Vazirmatn:wght@400;700"
   ],
   "lineHeight": 1.9,
+  "credits": [
+    {
+      "name": "Let's Read Asia stories, Dari (The Asia Foundation and book creators)",
+      "licence": "CC BY 4.0",
+      "url": "https://www.letsreadasia.org/"
+    }
+  ],
   "script": {
     "stages": [
       {
@@ -165,10 +172,6 @@
       "wordRead": 25,
       "symType": 15
     }
-  },
-  "audio": {
-    "voice": "fa_IR-ganji_adabi-medium",
-    "version": 2
   },
   "typedFrom": [
     "written"
@@ -552,5 +555,9 @@
         ]
       ]
     }
+  },
+  "audio": {
+    "voice": "fa_IR-ganji_adabi-medium",
+    "version": 2
   }
 }

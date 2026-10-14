@@ -118,5 +118,982 @@
     "licence": "CC-BY-SA-4.0",
     "count": 1212,
     "note": "Written where Tatoeba has fewer than two usable sentences for a word; no audio."
+  },
+  "story_sentences": {
+    "source": "Let's Read Asia (The Asia Foundation), Dari books with their English edition",
+    "licence": "CC-BY-4.0",
+    "url": "https://www.letsreadasia.org/",
+    "note": "The text is Dari (Afghan Persian); the rest of the pack is Iranian Persian (Tatoeba). Sentences are split out of the book text, Persian and English realigned sentence by sentence; typographic quotes became plain, Arabic yeh and kaf became Persian letters, detached می/نمی were joined with a ZWNJ, direction marks were removed, and a missing stop at the end of a book page was added (taken from the English page); nothing else was changed.",
+    "count": 139,
+    "stories": [
+      {
+        "id": "078b0bd9-81af-49f4-bd06-3a62f1b97016",
+        "title": "بیا که پا ها را حساب کنیم",
+        "english_title": "Let's Count Legs",
+        "authors": [
+          "Komar Rien Komar Cheh"
+        ],
+        "illustrators": [
+          "Meas SovannaraI"
+        ],
+        "publisher": [
+          "The Asia Foundation - Let's Read"
+        ],
+        "contributors": [
+          "Farkhonda ‌Bahram"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/078b0bd9-81af-49f4-bd06-3a62f1b97016",
+        "signers": [
+          "Kumar Regmi"
+        ],
+        "original_url": "https://www.letsreadasia.org",
+        "original_language": "ភាសាខ្មែរ"
+      },
+      {
+        "id": "11067bb5-397f-497b-a83b-19134b81a347",
+        "title": "افکار من به کجا می‌روند؟",
+        "english_title": "Where Do My Thoughts Go?",
+        "authors": [
+          "Sherein Bansal"
+        ],
+        "illustrators": [
+          "Priyanka Kumar"
+        ],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Ahmad Zaki Manawi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/11067bb5-397f-497b-a83b-19134b81a347",
+        "original_url": "https://storyweaver.org.in/stories/26021-where-do-my-thoughts-go",
+        "original_language": "English"
+      },
+      {
+        "id": "13aff8a7-a6d9-4397-8116-0068f48ceeb7",
+        "title": "چی میشد اگر...؟",
+        "english_title": "What if...?",
+        "authors": [
+          "Cristy Zinn"
+        ],
+        "illustrators": [
+          "Mary-Anne Hampton"
+        ],
+        "publisher": [
+          "Book Dash"
+        ],
+        "contributors": [
+          "Mohammadullah Amiri"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/13aff8a7-a6d9-4397-8116-0068f48ceeb7",
+        "signers": [
+          "Jamuna Mahal"
+        ],
+        "original_url": "http://bookdash.org/what-if-by-cristy-zinn-mary-anne-hampton-and-julie-smith-belton/",
+        "original_language": "English"
+      },
+      {
+        "id": "1d245fab-512a-4a77-9897-e790e4568741",
+        "title": "ماهی گوندو و ماهی کوتی",
+        "english_title": "Gundu Fish and Kutti Fish",
+        "authors": [
+          "Hemalatha Kanagalingam"
+        ],
+        "illustrators": [
+          "R. Surendran"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Karima Mohamamdi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/1d245fab-512a-4a77-9897-e790e4568741",
+        "original_url": "https://storyweaver.org.in/stories/38479-kuntuminum-kuttiminum",
+        "original_language": "English"
+      },
+      {
+        "id": "1feeebb2-aa04-49e1-bd8a-9acb24e3ff7d",
+        "title": "این یک روح است1",
+        "english_title": "It's a Ghost!",
+        "authors": [
+          "Chandan Yadav"
+        ],
+        "illustrators": [
+          "Kaustubh Kamat"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Yalda Azim"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/1feeebb2-aa04-49e1-bd8a-9acb24e3ff7d",
+        "original_url": "https://storyweaver.org.in/stories/35413-bhoot",
+        "original_language": "English"
+      },
+      {
+        "id": "21146421-6548-44a9-92e5-42cb4226fd27",
+        "title": "کفش دوزک",
+        "english_title": "The Ladybird",
+        "authors": [
+          "Shantdas Manandhar"
+        ],
+        "illustrators": [
+          "Promina Shrestha"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Mariam Mohamamdi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/21146421-6548-44a9-92e5-42cb4226fd27",
+        "original_url": "https://storyweaver.org.in/stories/41935-tikatike-kira",
+        "original_language": "नेपाली"
+      },
+      {
+        "id": "27b53444-8ad8-4f6d-9f5c-179d4927c09c",
+        "title": "صاحب مخفی",
+        "english_title": "Secret Owner",
+        "authors": [
+          "Subashini Godage"
+        ],
+        "illustrators": [
+          "Thiloka Kariyapperuma"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Masuma Ahmadi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/27b53444-8ad8-4f6d-9f5c-179d4927c09c",
+        "original_url": "https://storyweaver.org.in/stories/39537-kaageda-malla",
+        "original_language": "English"
+      },
+      {
+        "id": "28b32a24-cb15-40ed-8991-0b1da108879e",
+        "title": "رنگ ها",
+        "english_title": "Colours",
+        "authors": [
+          "Priyanka"
+        ],
+        "illustrators": [
+          "Ajanta Guhathakurta"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Madina Mohammadi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/28b32a24-cb15-40ed-8991-0b1da108879e",
+        "signers": [
+          "Garima Bhattarai"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/35373-rang",
+        "original_language": "English"
+      },
+      {
+        "id": "300defa7-8ebd-4177-94bb-c46b369c2b54",
+        "title": "خوک راه را رهبری میکند!",
+        "english_title": "Pig Leads the Way!",
+        "authors": [
+          "Irajendran Sevugan"
+        ],
+        "illustrators": [
+          "Isuri Dayaratne"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Frozan Darwish"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/300defa7-8ebd-4177-94bb-c46b369c2b54",
+        "signers": [
+          "Rabita Deula"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/38483-noyk-noyk",
+        "original_language": "English"
+      },
+      {
+        "id": "33269bb6-1ccb-4279-9ba6-d11b477abac4",
+        "title": "پرنده های رنگین",
+        "english_title": "Colorful Birds",
+        "authors": [
+          "Chathurika Jayasooriya"
+        ],
+        "illustrators": [
+          "Chathurika Jayasooriya"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Abdul Fatah Attaie"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/33269bb6-1ccb-4279-9ba6-d11b477abac4",
+        "signers": [
+          "Siddhartha K.C"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/39539-paata-apurui",
+        "original_language": "English"
+      },
+      {
+        "id": "37618712-ec47-49d0-ad3c-8be5f09df0be",
+        "title": "نین می خواهد لباس خود را بپوشد",
+        "english_title": "Nin Wants to Get Dressed",
+        "authors": [
+          "Bounhome Khensonema"
+        ],
+        "illustrators": [
+          "Aphisith Souphavongtay"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Sarah Habib"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/37618712-ec47-49d0-ad3c-8be5f09df0be",
+        "signers": [
+          "Sobita Paudel"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/34929-nin-hian-nungkheuong",
+        "original_language": "English"
+      },
+      {
+        "id": "42b4c8a1-d729-40ea-aa49-797e2efb1dad",
+        "title": "خانواده ما",
+        "english_title": "Our Family",
+        "authors": [
+          "Komar Rien Komar Cheh"
+        ],
+        "illustrators": [
+          "Chan Pisey"
+        ],
+        "publisher": [
+          "The Asia Foundation - Let's Read"
+        ],
+        "contributors": [
+          "Ghulam Farooq Osmani"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/42b4c8a1-d729-40ea-aa49-797e2efb1dad",
+        "signers": [
+          "Samyukta Shrestha"
+        ],
+        "original_url": "https://www.letsreadasia.org",
+        "original_language": "ភាសាខ្មែរ"
+      },
+      {
+        "id": "45bcd732-78e8-45f9-8498-3472db863950",
+        "title": "به بدن من گوش بدهید",
+        "english_title": "Listen to My Body",
+        "authors": [
+          "Rohini Nilekani"
+        ],
+        "illustrators": [
+          "Angie & Upesh"
+        ],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Donya Begom"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/45bcd732-78e8-45f9-8498-3472db863950",
+        "signers": [
+          "Hira Maharjan"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/40-listen-to-my-body",
+        "original_language": "English"
+      },
+      {
+        "id": "46ab43cf-608f-4974-9407-5b15e8f45c84",
+        "title": "رهبر روستا",
+        "english_title": "The Village Leader",
+        "authors": [
+          "Alyson Curro"
+        ],
+        "illustrators": [
+          "Nan Hom Noon"
+        ],
+        "publisher": [
+          "The Asia Foundation - Let's Read"
+        ],
+        "contributors": [
+          "Atina Amiri"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/46ab43cf-608f-4974-9407-5b15e8f45c84",
+        "original_url": "https://www.letsreadasia.org",
+        "original_language": "English"
+      },
+      {
+        "id": "5adb0aa2-325e-4ed6-bc5d-709432db498b",
+        "title": "ایا کسی مثل من وجود دارد؟",
+        "english_title": "Is There Anyone Like Me?",
+        "authors": [],
+        "illustrators": [],
+        "publisher": [
+          "Book Dash"
+        ],
+        "contributors": [
+          "Abdul Fatah Attaie"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/5adb0aa2-325e-4ed6-bc5d-709432db498b",
+        "original_url": "http://bookdash.org/is-there-anyone-like-me-by-fred-strydom-jess-jardim-wedepohl-and-stephen-wallace/",
+        "original_language": "English"
+      },
+      {
+        "id": "60120738-9a90-4f6b-b2cb-7ed5c1318be4",
+        "title": "طفلک از خواب بیدار نکنید",
+        "english_title": "Don't Wake the Baby!",
+        "authors": [
+          "Huynh Thi Kim Lien"
+        ],
+        "illustrators": [
+          "Huynh Thi Kim Lien"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Mahdia Rezayee"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/60120738-9a90-4f6b-b2cb-7ed5c1318be4",
+        "original_url": "https://storyweaver.org.in/stories/31900-suyt-em-be-dang-ngu",
+        "original_language": "English"
+      },
+      {
+        "id": "6a5a3cb3-86eb-4e4c-a7de-b959ba1ccb66",
+        "title": "سنگین چقدر سنگین است؟",
+        "english_title": "How Heavy is Heavy",
+        "authors": [
+          "Sukanya Sinha"
+        ],
+        "illustrators": [],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Jawad Adilyar"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/6a5a3cb3-86eb-4e4c-a7de-b959ba1ccb66",
+        "original_url": "https://storyweaver.org.in/stories/28266-how-heavy-is-heavy",
+        "original_language": "English"
+      },
+      {
+        "id": "6d3a3f33-c005-4b57-959e-e445d1a33fa8",
+        "title": "یک سیب شیرین",
+        "english_title": "A Sweet Apple",
+        "authors": [
+          "Kedar Shrestha"
+        ],
+        "illustrators": [
+          "Binita Buddhacharya"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Sarah Habib",
+          "Behzad Ayubi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/6d3a3f33-c005-4b57-959e-e445d1a33fa8",
+        "signers": [
+          "Rabita Deula"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/54708-guliyo-sya-u",
+        "original_language": "English"
+      },
+      {
+        "id": "725abed5-682a-4c5d-918c-928d66541dc7",
+        "title": "کرتی بارانی سرخ",
+        "english_title": "The Red Raincoat",
+        "authors": [
+          "Kiran Kasturia"
+        ],
+        "illustrators": [
+          "Zainab Tambawalla"
+        ],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Gul Gona Qamri"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/725abed5-682a-4c5d-918c-928d66541dc7",
+        "signers": [
+          "Siddhartha K.C"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/369-the-red-raincoat",
+        "original_language": "English"
+      },
+      {
+        "id": "7d518f98-b3e0-49bb-bceb-0a95cc825d52",
+        "title": "بته لوبیای سرخ تارا",
+        "english_title": "Tra's Red Bean Plant",
+        "authors": [
+          "Alisha Berger"
+        ],
+        "illustrators": [
+          "Phạm Hùng Vinh"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Sarah Habib"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/7d518f98-b3e0-49bb-bceb-0a95cc825d52",
+        "original_url": "https://storyweaver.org.in/stories/23466-tra-s-red-bean-plant",
+        "original_language": "English"
+      },
+      {
+        "id": "86565946-2e24-496d-aa68-58071e636cd0",
+        "title": "من نترسیدم",
+        "english_title": "I Am Not Afraid!",
+        "authors": [
+          "Mini Shrinivasan"
+        ],
+        "illustrators": [],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Shikwa Bahir"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/86565946-2e24-496d-aa68-58071e636cd0",
+        "signers": [
+          "Sobita Paudel"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/959-i-am-not-afraid",
+        "original_language": "English"
+      },
+      {
+        "id": "8b00c092-5212-459b-a360-3a63f9085479",
+        "title": "چونو و مونو: این یخ است",
+        "english_title": "Chunu & Munu: It's Freezing!",
+        "authors": [
+          "Shilpi Pradhan",
+          "Shantdas Manandhar"
+        ],
+        "illustrators": [
+          "Abin Shrestha"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Tamana Rahimi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/8b00c092-5212-459b-a360-3a63f9085479",
+        "signers": [
+          "Garima Bhattarai"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/41830-uhu-uhu-jado",
+        "original_language": "English"
+      },
+      {
+        "id": "8f01de32-fa47-4644-877b-2bd58ea1242c",
+        "title": "خزانه بو",
+        "english_title": "Bo's Treasure",
+        "authors": [
+          "Phạm Quang Phúc"
+        ],
+        "illustrators": [
+          "Phạm Quang Phúc",
+          "Huynh Vu Tuong"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Masuma Habibi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/8f01de32-fa47-4644-877b-2bd58ea1242c",
+        "original_url": "https://storyweaver.org.in/stories/31284-bau-vat-cua-bo",
+        "original_language": "English"
+      },
+      {
+        "id": "93e8c900-ca78-4cdb-8847-efdc90f26f05",
+        "title": "چگونه احساس می کنید؟",
+        "english_title": "How Do You Feel?",
+        "authors": [
+          "Menaka Ramen"
+        ],
+        "illustrators": [
+          "Angie & Upesh",
+          "Vartika Sharma",
+          "Rijuta Ghate",
+          "Sukhada Rahalkar",
+          "Madhuri Purandare",
+          "Priya Kuriyan",
+          "Greystroke",
+          "Soumya Menon",
+          "Jithin  Jacob",
+          "Archana Sreenivasan"
+        ],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Ghulam Farooq Osmani"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/93e8c900-ca78-4cdb-8847-efdc90f26f05",
+        "signers": [
+          "Hira Maharjan"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/5982-how-do-you-feel",
+        "original_language": "English"
+      },
+      {
+        "id": "9a991ed4-3717-4dc3-96c7-c0e000a9e54e",
+        "title": "تراکتور کمک می گیرد",
+        "english_title": "Tractor Gets Help",
+        "authors": [
+          "Mokgaetji Marutla"
+        ],
+        "illustrators": [
+          "Ntibile Zonke o hweditše"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Sarah Habib",
+          "Behzad Ayubi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/9a991ed4-3717-4dc3-96c7-c0e000a9e54e",
+        "original_url": "https://storyweaver.org.in/stories/54236-kalafo-ya-terekere",
+        "original_language": "English"
+      },
+      {
+        "id": "a26fb35b-490f-4c25-a51e-f5544342ca33",
+        "title": "شاه چاق سگ لاغر",
+        "english_title": "Fat King Thin Dog",
+        "authors": [
+          "Parismita"
+        ],
+        "illustrators": [
+          "Parismita"
+        ],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Adila haidary"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/a26fb35b-490f-4c25-a51e-f5544342ca33",
+        "signers": [
+          "Kumar Regmi"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/7-fat-king-thin-dog",
+        "original_language": "English"
+      },
+      {
+        "id": "a55170bf-f346-4d94-bc03-1f505692c87b",
+        "title": "دیدی و گنج رنگارنگ",
+        "english_title": "Didi and the Colorful Treasure",
+        "authors": [
+          "Rukmini Banerji"
+        ],
+        "illustrators": [
+          "Pors Socheata",
+          "Kaveri Gopalakrishnan"
+        ],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Sarah Habib"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/a55170bf-f346-4d94-bc03-1f505692c87b",
+        "signers": [
+          "Garima Bhattarai"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/1912-didi-and-the-colourful-treasure",
+        "original_language": "English"
+      },
+      {
+        "id": "a93846c5-d6a5-4f34-8788-48cd17855be8",
+        "title": "ما سم ریپ را ملاقات می کنیم",
+        "english_title": "We Visit Siem Reap",
+        "authors": [
+          "Komar Rien Komar Cheh"
+        ],
+        "illustrators": [
+          "Ty Sovan Panha"
+        ],
+        "publisher": [
+          "The Asia Foundation - Let's Read"
+        ],
+        "contributors": [
+          "Sarah Habib"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/a93846c5-d6a5-4f34-8788-48cd17855be8",
+        "original_url": "https://www.letsreadasia.org",
+        "original_language": "ភាសាខ្មែរ"
+      },
+      {
+        "id": "aa82d663-2c3a-4b7e-9745-a2907853970d",
+        "title": "چشم پتکان",
+        "english_title": "Animal Hide-and-Seek",
+        "authors": [
+          "Alisha Berger"
+        ],
+        "illustrators": [
+          "Huynh Vu Tuong"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Sarah Habib"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/aa82d663-2c3a-4b7e-9745-a2907853970d",
+        "original_url": "https://storyweaver.org.in/stories/22889-hide-and-seek",
+        "original_language": "English"
+      },
+      {
+        "id": "aac8018e-ebd3-4784-addd-953513609304",
+        "title": "این... اینها",
+        "english_title": "This...These",
+        "authors": [
+          "Komar Rien Komar Cheh"
+        ],
+        "illustrators": [
+          "Be Chharya"
+        ],
+        "publisher": [
+          "The Asia Foundation - Let's Read"
+        ],
+        "contributors": [
+          "Mariam Mohammadi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/aac8018e-ebd3-4784-addd-953513609304",
+        "signers": [
+          "Kumar Regmi"
+        ],
+        "original_url": "https://www.letsreadasia.org",
+        "original_language": "ភាសាខ្មែរ"
+      },
+      {
+        "id": "b1692d47-38d5-4efc-b909-c79dd0cb8906",
+        "title": "موش خرما به مکتب میرود",
+        "english_title": "Squirrel Goes to School",
+        "authors": [
+          "Dỗ Thái Thanh"
+        ],
+        "illustrators": [
+          "Dỗ Thái Thanh"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Khadija Roshan"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/b1692d47-38d5-4efc-b909-c79dd0cb8906",
+        "original_url": "https://storyweaver.org.in/stories/31013-soc-con-di-hoc",
+        "original_language": "English"
+      },
+      {
+        "id": "baf736bc-d5cf-45ed-ac4f-58b1fd049431",
+        "title": "خانواده ای بزرگ من",
+        "english_title": "My Big Family",
+        "authors": [
+          "Lưu Thị Lương"
+        ],
+        "illustrators": [
+          "Lê Thị Anh Thư"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Manizha Sayeedi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/baf736bc-d5cf-45ed-ac4f-58b1fd049431",
+        "original_url": "https://storyweaver.org.in/stories/32698-nha-co-dong-nguoi-thi-sao",
+        "original_language": "English"
+      },
+      {
+        "id": "c5ef33bf-7c0b-4009-b9eb-32a0bef30730",
+        "title": "سیب سبز",
+        "english_title": "The Green Apple",
+        "authors": [
+          "Doreen Maishiko Mojapelo"
+        ],
+        "illustrators": [
+          "Ellena Nortje",
+          "Riaan Coetzee"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Frozan Mohammadi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/c5ef33bf-7c0b-4009-b9eb-32a0bef30730",
+        "original_url": "https://storyweaver.org.in/stories/39946-the-green-apple",
+        "original_language": "English"
+      },
+      {
+        "id": "c817f939-c60d-457d-b03e-0df6594d58a8",
+        "title": "کتاب سرخ ریمی",
+        "english_title": "Rimi's Red Book",
+        "authors": [
+          "Mozammel Haque Neogi"
+        ],
+        "illustrators": [
+          "Yusuf Ali Noton"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Sonam"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/c817f939-c60d-457d-b03e-0df6594d58a8",
+        "signers": [
+          "Shradha Bhusal"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/37745-rimir-lal-boi",
+        "original_language": "English"
+      },
+      {
+        "id": "c879ea63-4819-4430-86e5-76404a247b44",
+        "title": "شیر میدود و گاو راه میرود.",
+        "english_title": "The Lion Runs and the Cow Walks",
+        "authors": [
+          "Komar Rien Komar Cheh"
+        ],
+        "illustrators": [
+          "Horn Samon"
+        ],
+        "publisher": [
+          "The Asia Foundation - Let's Read"
+        ],
+        "contributors": [
+          "Mariam Mohammadi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/c879ea63-4819-4430-86e5-76404a247b44",
+        "original_url": "https://www.letsreadasia.org",
+        "original_language": "ភាសាខ្មែរ"
+      },
+      {
+        "id": "db90f280-6f47-4442-b1dc-c70d0e6c4e4d",
+        "title": "این صدای کی است؟",
+        "english_title": "Whose Voice is This?",
+        "authors": [
+          "Komar Rien Komar Cheh"
+        ],
+        "illustrators": [
+          "Hin Koemyean"
+        ],
+        "publisher": [
+          "The Asia Foundation - Let's Read"
+        ],
+        "contributors": [
+          "Frozan Darwish"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/db90f280-6f47-4442-b1dc-c70d0e6c4e4d",
+        "signers": [
+          "Kumar Regmi"
+        ],
+        "original_url": "https://www.letsreadasia.org",
+        "original_language": "ភាសាខ្មែរ"
+      },
+      {
+        "id": "e6c858eb-1f82-4f96-b438-5217fc6874d8",
+        "title": "بدو بدو بدو!",
+        "english_title": "Run, Run, Run!",
+        "authors": [
+          "Komar Rien Komar Cheh"
+        ],
+        "illustrators": [
+          "Khiev Sothina"
+        ],
+        "publisher": [
+          "The Asia Foundation - Let's Read"
+        ],
+        "contributors": [
+          "Sarah Habib",
+          "Behzad Ayubi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/e6c858eb-1f82-4f96-b438-5217fc6874d8",
+        "original_url": "https://www.letsreadasia.org",
+        "original_language": "ភាសាខ្មែរ"
+      },
+      {
+        "id": "e7ef4845-161e-480a-a283-8fa28ec5f989",
+        "title": "ناوی و بورا",
+        "english_title": "Navy and Bora",
+        "authors": [
+          "Komar Rien Komar Cheh"
+        ],
+        "illustrators": [
+          "Sin Thuokna"
+        ],
+        "publisher": [
+          "The Asia Foundation - Let's Read"
+        ],
+        "contributors": [
+          "Mariam Mohammadi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/e7ef4845-161e-480a-a283-8fa28ec5f989",
+        "original_url": "https://www.letsreadasia.org",
+        "original_language": "ភាសាខ្មែរ"
+      },
+      {
+        "id": "eb36b7d8-60e5-4afe-8af0-dd33e7f38bfe",
+        "title": "خواب اقیانوسی",
+        "english_title": "The Ocean Dream",
+        "authors": [
+          "Nhã Thuyên"
+        ],
+        "illustrators": [
+          "Lê Thị Bích Khoa"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Palwasha Ahmadi"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/eb36b7d8-60e5-4afe-8af0-dd33e7f38bfe",
+        "original_url": "https://storyweaver.org.in/stories/33549-giac-mo-bien-xanh",
+        "original_language": "English"
+      },
+      {
+        "id": "ebffd03e-0005-4ddb-83ab-79064ee3b2a6",
+        "title": "دستگاه های حیرت آور آماچی",
+        "english_title": "Ammachi's Amazing Machines",
+        "authors": [
+          "Rajiv Eipe"
+        ],
+        "illustrators": [
+          "Rajiv Eipe"
+        ],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Mohammadullah Amiri"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/ebffd03e-0005-4ddb-83ab-79064ee3b2a6",
+        "original_url": "https://storyweaver.org.in/stories/10118-ammachi-s-amazing-machines",
+        "original_language": "English"
+      },
+      {
+        "id": "ee43e625-94ab-4054-8eeb-bab6f633e3eb",
+        "title": "روز اول مکتب رفتن نیما",
+        "english_title": "Nima's First Day of School",
+        "authors": [
+          "Krishnadip Sigdel"
+        ],
+        "illustrators": [
+          "Shanta Hitang"
+        ],
+        "publisher": [
+          "Room to Read"
+        ],
+        "contributors": [
+          "Yalda Azim"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/ee43e625-94ab-4054-8eeb-bab6f633e3eb",
+        "signers": [
+          "Lasata Maharjan"
+        ],
+        "original_url": "https://storyweaver.org.in/stories/54711-nima-khusi-chainana",
+        "original_language": "English"
+      },
+      {
+        "id": "f449f03f-1516-40fd-9ecb-a891f241f46f",
+        "title": "جعبه جادویی",
+        "english_title": "The Magic Block",
+        "authors": [
+          "Lavina Mahbubani"
+        ],
+        "illustrators": [
+          "Rohit Karandadi"
+        ],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Mujeeb-ul-Rahman Noori"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/f449f03f-1516-40fd-9ecb-a891f241f46f",
+        "original_url": "https://storyweaver.org.in/stories/26650-the-magic-block",
+        "original_language": "English"
+      },
+      {
+        "id": "fc8ba4aa-5e09-4a76-aaf0-06fe2c4d7a1d",
+        "title": "رنگمال کوچک",
+        "english_title": "Little Painters",
+        "authors": [
+          "Cheryl Rao"
+        ],
+        "illustrators": [
+          "Tanvi Bhat"
+        ],
+        "publisher": [
+          "Pratham Books"
+        ],
+        "contributors": [
+          "Mursal Najat"
+        ],
+        "licence": "CC-BY-4.0",
+        "url": "https://www.letsreadasia.org/book/fc8ba4aa-5e09-4a76-aaf0-06fe2c4d7a1d",
+        "original_url": "https://storyweaver.org.in/stories/218-little-painters",
+        "original_language": "English"
+      }
+    ]
   }
 }

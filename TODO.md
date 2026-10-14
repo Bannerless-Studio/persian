@@ -6,6 +6,12 @@ Residuals from the v1 QA rounds. The rules already in place are in
 Republish 09e90bc: sentence spans (16344/16542 linked words placed); inflected forms now cloze targets.
 Republish ef44c6e: سم, بمب A2→B1 (quota: تمرین, راحتی B1→A2); یعنی "that is, I mean, meaning"; سم written example rewritten in place + 1 clip rendered; deleted override keys جناب|noun, حالی|adv, خواسته|adj, دیده|noun, سری|noun, فوق|noun; set-counter and no-voice planner fixes
 
+## Story sentences (Let's Read Asia, Dari)
+- 139 story sentences shipped (`"src": "story"`), from 71 CC BY 4.0 Dari books (66 with an English twin). Built on engine branch `story-fa` (../ve-story-fa, not merged to vocab-engine main; the `engine/` submodule is still aa76f69): build and check with `PACKBUILDER_PATH=../ve-story-fa/tools`, bump `engine/` after the merge.
+- Variety: the books are Dari, the pack is Iranian Persian. Dari-only words fall out at the pack filter; Dari forms found by the hand audit (copula استی/استند, مه, مکتب, موتر, دوکان, صنف, افتید) are dropped in `fa_story.DARI_FORMS`. A learner may still meet Dari wording the audit did not list.
+- Hand audit 2026-10-15: 195 distinct pairs read (every shipped pair at least once), 37 flagged bad (81% raw). 11 fell to the Dari-form and name filters added afterwards, 26 are in `tools/bad_sentences.txt`. Independent review then flagged 9 more (wrong sense, garbled, Dari participle+می‌تواند, wrong term), all listed; a regex now drops the participle class and DARI_FORMS also match clitic forms. The 139 shipped have 0 known bad; no native review.
+- Fetch cache: `.cache/stories/fa-lra/` (python3 tools/story_fetch/lra_fetch.py --lid 5691900216475648 --code fa --site ../persian). Passage windows (not authored): 5 best windows in 4 stories, `vocab-engine/.cache/briefs/story-fa-windows.txt`.
+
 ## Engine submodule
 - `engine/` must point at a vocab-engine commit that includes `langs/fa.py`
   and the `pack_json_extra` hook. Until then, build and check with

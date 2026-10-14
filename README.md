@@ -88,7 +88,15 @@ the 3,031 example sentences were written for this pack** (marked `"src":
 "gen"` in `pack/sentences.json`, listed in `tools/generated_sentences.tsv`).
 The other 1,820 come from Tatoeba, and 447 words have only written
 sentences. Written sentences are machine-written and reviewed, but not by a
-native Persian speaker. Known residuals (link accuracy edge cases,
+native Persian speaker. A further 139 sentences (marked `"src": "story"`) come
+from Let's Read Asia children's books (CC BY 4.0). Their text is **Dari
+(Afghan Persian)**, not the Iranian Persian of the rest of the pack: Dari-only
+vocabulary falls out at the pack word filter and the common Dari spellings
+(for example the copula استی, استند) are dropped, but the register is a
+children's reader. They were hand-audited against their English edition and
+the bad pairs are listed in `tools/bad_sentences.txt`. A word has at most four
+picked examples (a sentence shared with other words may link more); picks three
+and four are story sentences only. Known residuals (link accuracy edge cases,
 romanisation gaps, and more) are tracked in `TODO.md`.
 
 The 80 reading passages (`pack/passages.json`) were written for this pack
@@ -122,6 +130,7 @@ counts are in `tools/README.md` and `TODO.md`.
 | Example sentences | [Tatoeba](https://tatoeba.org) `pes_sentences_detailed.tsv` | CC-BY 2.0 FR | sentence text (contributors in `pack/attribution.json`) |
 | Sentence translations | Tatoeba `eng_sentences.tsv` + `pes-eng_links.tsv` | CC-BY 2.0 FR | English translations |
 | Written sentences | `tools/generated_sentences.tsv`, written for this pack | same as this repo | 1,211 sentences marked `"src": "gen"` |
+| Story sentences | [Let's Read Asia](https://www.letsreadasia.org/) (The Asia Foundation and book creators), Dari books with their English edition | CC BY 4.0 | 139 sentences marked `"src": "story"`; books, authors and illustrators in `pack/attribution.json` `story_sentences`. Text split into sentences, English realigned, quotes made plain, a missing final stop added. |
 | Audio | Piper TTS (`piper-tts`, MIT), `fa_IR-ganji_adabi-medium` voice | voice model licence, see `engine/docs/AUDIO.md` | recorded word/sentence/passage/script-unit audio |
 | Font | Vazirmatn via Google Fonts | SIL OFL 1.1 | display only |
 
