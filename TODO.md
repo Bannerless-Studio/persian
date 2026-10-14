@@ -57,11 +57,11 @@ Republish ef44c6e: سم, بمب A2→B1 (quota: تمرین, راحتی B1→A2);
   homograph stems need entries there.
 
 ## Reading passages
-- A native-speaker pass over the 60 texts has not been done yet; only an
+- A native-speaker pass over the 80 texts has not been done yet; only an
   automated QA pass plus two rounds of manual/external QA fixes (see
   `tools/REPORT_passages.md` for the full manual notes and per-passage
   coverage/link numbers).
-- The only out-of-pack lemma across all 60 passages is فسنجان (fesenjan,
+- The only out-of-pack lemma across all 80 passages is فسنجان (fesenjan,
   the dish p0053's narrator cooks: no pack word names it).
 - The passage-only linker rules for Persian (an X-tagged plain word gets
   its dictionary class; a verb read with a non-infinitive lemma is

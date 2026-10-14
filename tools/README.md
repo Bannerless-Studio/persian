@@ -25,7 +25,7 @@ back. Persian-specific linking rules (light verbs, plurals, forced closed sets, 
   used for illustration only (never for frequency); exempt from the drop-everywhere
   content filter, e.g. the one neutral خودکشی example kept after suicide/self-harm
   sentences were otherwise dropped (see TODO.md).
-- `passages_src.json` — **hand-authored input.** Source text for the 60 reading
+- `passages_src.json` — **hand-authored input.** Source text for the 80 reading
   passages (`pack/passages.json`), rebuilt with `packbuilder passages`.
 - `id_map_v1.json` — **generated, frozen.** `"lemma|pos"` -> word id map; never
   hand-edit or renumber, it's what keeps learner progress across rebuilds.
@@ -40,7 +40,7 @@ back. Persian-specific linking rules (light verbs, plurals, forced closed sets, 
 - `REPORT.md` — **generated** (manual QA-verdict section preserved across rebuilds).
   Tagging stats, word-selection funnel, romanisation coverage, level-band counts.
 - `REPORT_passages.md` — **generated.** Per-passage coverage, level-budget and
-  question counts for the 60 reading passages.
+  question counts for the 80 reading passages.
 
 ## Audio pipeline
 

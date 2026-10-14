@@ -10,8 +10,8 @@ words = the builder's word count (the band rule); ws_words = whitespace-separate
 tokens of the passage text, the count the app shows (report only).
 
 - **A1**: 20 passages; words/passage 67-90 (median 80.5); ws_words 63-83; coverage min 1.000, median 1.000 (rule >= 0.95); linked min 1.000; questions mc 42, tf 49
-- **A2**: 20 passages; words/passage 95-118 (median 110.0); ws_words 92-106; coverage min 1.000, median 1.000 (rule >= 0.95); linked min 1.000; questions mc 41, tf 54
-- **B1**: 20 passages; words/passage 120-150 (median 147.0); ws_words 116-141; coverage min 0.992, median 1.000 (rule >= 0.93); linked min 0.992; questions mc 60, tf 40
+- **A2**: 30 passages; words/passage 95-120 (median 110.0); ws_words 90-112; coverage min 1.000, median 1.000 (rule >= 0.95); linked min 1.000; questions mc 62, tf 83
+- **B1**: 30 passages; words/passage 117-150 (median 143.5); ws_words 107-141; coverage min 0.992, median 1.000 (rule >= 0.93); linked min 0.992; questions mc 85, tf 65
 
 | id | lv | title | words | ws_words | coverage | linked | out-of-pack lemmas (reason) | higher-level lemmas |
 |---|---|---|---|---|---|---|---|---|
@@ -75,6 +75,26 @@ tokens of the passage text, the count the app shows (report only).
 | p0058 | B1 | نظر من درباره‌ی رستوران نارون | 148 | 141 | 1.000 | 1.000 | - | - |
 | p0059 | B1 | یاد گرفتن زبان در بزرگسالی | 147 | 127 | 1.000 | 1.000 | - | - |
 | p0060 | B1 | ده سال بعد | 150 | 139 | 1.000 | 1.000 | - | - |
+| p0061 | A2 | کلید گم شد | 105 | 103 | 1.000 | 1.000 | - | - |
+| p0062 | A2 | اطلاعیه‌ی کلاس رقص | 117 | 94 | 1.000 | 1.000 | - | - |
+| p0063 | A2 | روز امتحان | 112 | 106 | 1.000 | 1.000 | - | - |
+| p0064 | A2 | پل جدید | 108 | 99 | 1.000 | 1.000 | - | B1: رودخانه |
+| p0065 | A2 | نامه به یک دوست | 106 | 101 | 1.000 | 1.000 | - | - |
+| p0066 | A2 | یک روز در جزیره | 120 | 110 | 1.000 | 1.000 | - | B1: غروب, قایق |
+| p0067 | A2 | گفتگو با یک قهرمان | 109 | 95 | 1.000 | 1.000 | - | - |
+| p0068 | A2 | مراسم ازدواج | 119 | 112 | 1.000 | 1.000 | - | - |
+| p0069 | A2 | در اداره‌ی پست | 96 | 90 | 1.000 | 1.000 | - | B1: آدرس, تشکر کردن |
+| p0070 | A2 | باد و کلاه | 114 | 110 | 1.000 | 1.000 | - | - |
+| p0071 | B1 | طوفان در شهر | 133 | 125 | 1.000 | 1.000 | - | - |
+| p0072 | B1 | گفتگو با یک پرستار | 141 | 122 | 1.000 | 1.000 | - | - |
+| p0073 | B1 | نامه‌ای به فروشگاه | 123 | 114 | 1.000 | 1.000 | - | - |
+| p0074 | B1 | اولین پرواز | 120 | 113 | 1.000 | 1.000 | - | - |
+| p0075 | B1 | یک روز در کوه | 123 | 119 | 1.000 | 1.000 | - | - |
+| p0076 | B1 | چرا کتاب بخوانیم؟ | 134 | 120 | 1.000 | 1.000 | - | - |
+| p0077 | B1 | پیش دکتر | 117 | 107 | 1.000 | 1.000 | - | - |
+| p0078 | B1 | افسانه‌ی گرگ و آتش | 127 | 113 | 1.000 | 1.000 | - | - |
+| p0079 | B1 | شغل مترجم | 126 | 111 | 1.000 | 1.000 | - | - |
+| p0080 | B1 | همسایه‌ی بغل دست | 132 | 117 | 1.000 | 1.000 | - | - |
 
 Title words, and question/option words the budget does not count (a numeral-like
 pack word), that are out of the pack or above the passage's level (report only;
@@ -89,6 +109,8 @@ the budget rule above is unchanged):
 - p0033: title 'اطلاعیهی': out of pack
 - p0035: title 'محلهی': محله B1
 - p0059: title 'بزرگسالی': out of pack
+- p0062: title 'اطلاعیهی': out of pack
+- p0067: title 'گفتگو': گفتگو B1
 
 <!-- manual section: kept across runs -->
 ## Manual QA (2026-09-24; polished after two QA reviews, last 2026-09-25)
@@ -191,3 +213,33 @@ the budget rule above is unchanged):
   corpus writes them so).
 - **Unit tests.** vocab-engine `tools/packbuilder/tests/test_passage_fa.py`
   covers the five Persian passage rules.
+
+## Manual QA addendum (2026-10-14): p0061-p0080
+
+- **Added.** 10 A2 (p0061-p0070) and 10 B1 (p0071-p0080), appended to
+  `tools/passages_src.json`; p0001-p0060 are untouched. Genres: narrative,
+  notice, diary, short news, email, interview, dialogue, complaint letter,
+  essay, legend. All 20 use only in-pack lemmas (0 out-of-pack beyond the
+  declared names); A2 texts use at most 3 B1 lemmas (budget), the highest
+  being p0069 (آدرس, تشکر کردن) and p0066 (غروب, قایق).
+- **Questions.** 100 new questions, 5 per passage: mc 46 (A2 21, B1 25), tf 54
+  (A2 29, B1 25; 27 true, 27 false). Correct mc positions 0/1/2/3 are
+  11/12/11/12. The correct option is the unique longest in 4 of 46. No true/false
+  item shares a 5-word run with its passage. Every `words` entry is linked in
+  its `sentence`.
+- **Under-used words.** 133 A2 and B1 pack words (77 A2, 56 B1) and 20 A1 words
+  that no sentence of p0001-p0060 linked are now linked in p0061-p0080.
+- **Tagger limits met while writing.** Pack lacks some everyday words, so the
+  texts avoid them: خندیدن (written خنده‌شان گرفت), جیب, بستنی, استخر, شال,
+  تومان, آسانسور, چمدان. Compound light verbs link as the compound
+  (ازدواج کردن, تماس گرفتن, تلاش کردن, توضیح دادن, نیاز داشتن, مجبور شدن,
+  عادت کردن), so questions name those lemmas. X+ی ezafe after ه needs the
+  ZWNJ spelling the other passages use (جزیره‌ی was avoided).
+- **Build note.** The current builder orders `words` differently from the
+  committed file in 48 sentences of p0001-p0060 (same id sets, same spans,
+  caused by the gloss and tier republish after the first passage build). Their
+  committed entries, audio fields included, were kept byte-identical; only
+  p0061-p0080 come from this build.
+- **Audio.** 198 clips rendered for the new passage sentences after
+  `tools/ezafe_say.py` (100 new `audio_say.json` entries, existing entries
+  unchanged); `audio --check`: 0 missing, 0 stale, `pack.audio` still set.

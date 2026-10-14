@@ -1,7 +1,7 @@
 # Persian A1-B1 vocab trainer
 
 A free vocabulary trainer for Persian, A1 through B1: 2000 words with short
-English glosses, romanisations and example sentences, plus 60 short reading
+English glosses, romanisations and example sentences, plus 80 short reading
 passages with comprehension questions. Every word, sentence, passage
 sentence and script unit has recorded audio.
 
@@ -33,8 +33,8 @@ writing and speaking practice, which this app does not teach.
   case-sensitive; harakat, tatweel and the ZWNJ pseudo-space are folded on
   both sides, so typing میروم still matches می‌روم, and Arabic keyboard
   variants of kaf/yeh (ك/ي) always equal the Persian forms (ک/ی).
-- **Reading passages (Read tab, inside Today):** 20 short texts each at A1,
-  A2 and B1, 286 comprehension questions in all. A level's passages unlock
+- **Reading passages (Read tab, inside Today):** 20 short texts at A1
+  and 30 each at A2 and B1, 386 comprehension questions in all. A level's passages unlock
   once you've learned 70% of that level's words. Tap any word in a passage
   for its gloss, including inflected forms. Missed comprehension questions
   feed the words back into review. A passage's spaced re-read (after 7 days)
@@ -91,10 +91,10 @@ sentences. Written sentences are machine-written and reviewed, but not by a
 native Persian speaker. Known residuals (link accuracy edge cases,
 romanisation gaps, and more) are tracked in `TODO.md`.
 
-The 60 reading passages (`pack/passages.json`) were written for this pack
+The 80 reading passages (`pack/passages.json`) were written for this pack
 (`"src": "gen"`, source `tools/passages_src.json`), enforcing in-pack word
 coverage of at least 95% at A1/A2 and 93% at B1, with a level budget on how
-many higher-level words each passage may use. All 60 hit full or near-full
+many higher-level words each passage may use. All 80 hit full or near-full
 coverage; the one exception is فسنجان (fesenjan) in a B1 recipe passage,
 which no pack word names. They are machine-written by Claude, checked by an
 automated QA pass and two rounds of manual/external QA fixes, but have not
