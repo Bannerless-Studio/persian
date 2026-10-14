@@ -10,7 +10,7 @@ words = the builder's word count (the band rule); ws_words = whitespace-separate
 tokens of the passage text, the count the app shows (report only).
 
 - **A1**: 20 passages; words/passage 67-90 (median 80.5); ws_words 63-83; coverage min 1.000, median 1.000 (rule >= 0.95); linked min 1.000; questions mc 42, tf 49
-- **A2**: 30 passages; words/passage 95-120 (median 110.0); ws_words 90-112; coverage min 1.000, median 1.000 (rule >= 0.95); linked min 1.000; questions mc 62, tf 83
+- **A2**: 30 passages; words/passage 95-120 (median 111.0); ws_words 90-112; coverage min 1.000, median 1.000 (rule >= 0.95); linked min 1.000; questions mc 62, tf 83
 - **B1**: 30 passages; words/passage 117-150 (median 143.5); ws_words 107-141; coverage min 0.992, median 1.000 (rule >= 0.93); linked min 0.992; questions mc 85, tf 65
 
 | id | lv | title | words | ws_words | coverage | linked | out-of-pack lemmas (reason) | higher-level lemmas |
@@ -81,19 +81,19 @@ tokens of the passage text, the count the app shows (report only).
 | p0064 | A2 | پل جدید | 108 | 99 | 1.000 | 1.000 | - | B1: رودخانه |
 | p0065 | A2 | نامه به یک دوست | 106 | 101 | 1.000 | 1.000 | - | - |
 | p0066 | A2 | یک روز در جزیره | 120 | 110 | 1.000 | 1.000 | - | B1: غروب, قایق |
-| p0067 | A2 | گفتگو با یک قهرمان | 109 | 95 | 1.000 | 1.000 | - | - |
+| p0067 | A2 | گفتگو با یک قهرمان | 112 | 97 | 1.000 | 1.000 | - | - |
 | p0068 | A2 | مراسم ازدواج | 119 | 112 | 1.000 | 1.000 | - | - |
 | p0069 | A2 | در اداره‌ی پست | 96 | 90 | 1.000 | 1.000 | - | B1: آدرس, تشکر کردن |
 | p0070 | A2 | باد و کلاه | 114 | 110 | 1.000 | 1.000 | - | - |
-| p0071 | B1 | طوفان در شهر | 133 | 125 | 1.000 | 1.000 | - | - |
-| p0072 | B1 | گفتگو با یک پرستار | 141 | 122 | 1.000 | 1.000 | - | - |
+| p0071 | B1 | طوفان در شهر | 133 | 126 | 1.000 | 1.000 | - | - |
+| p0072 | B1 | گفتگو با یک پرستار | 140 | 123 | 1.000 | 1.000 | - | - |
 | p0073 | B1 | نامه‌ای به فروشگاه | 123 | 114 | 1.000 | 1.000 | - | - |
 | p0074 | B1 | اولین پرواز | 120 | 113 | 1.000 | 1.000 | - | - |
 | p0075 | B1 | یک روز در کوه | 123 | 119 | 1.000 | 1.000 | - | - |
-| p0076 | B1 | چرا کتاب بخوانیم؟ | 134 | 120 | 1.000 | 1.000 | - | - |
-| p0077 | B1 | پیش دکتر | 117 | 107 | 1.000 | 1.000 | - | - |
+| p0076 | B1 | چرا کتاب بخوانیم؟ | 133 | 120 | 1.000 | 1.000 | - | - |
+| p0077 | B1 | رژیم و ورزش | 117 | 107 | 1.000 | 1.000 | - | - |
 | p0078 | B1 | افسانه‌ی گرگ و آتش | 127 | 113 | 1.000 | 1.000 | - | - |
-| p0079 | B1 | شغل مترجم | 126 | 111 | 1.000 | 1.000 | - | - |
+| p0079 | B1 | شغل مترجم | 122 | 109 | 1.000 | 1.000 | - | - |
 | p0080 | B1 | همسایه‌ی بغل دست | 132 | 117 | 1.000 | 1.000 | - | - |
 
 Title words, and question/option words the budget does not count (a numeral-like
@@ -243,3 +243,10 @@ the budget rule above is unchanged):
 - **Audio.** 198 clips rendered for the new passage sentences after
   `tools/ezafe_say.py` (100 new `audio_say.json` entries, existing entries
   unchanged); `audio --check`: 0 missing, 0 stale, `pack.audio` still set.
+- **QA fixes (2026-10-14).** p0065 Q2 names the summer visit; ZWNJ dropped after
+  non-joiners (بیمارها, دانشجوها); the name کیان became سامان (a name starting
+  with a pack word read as کی), p0067 no longer says قهرمان in the text (it
+  linked قهر), p0072 says "یک بیمار"; p0077 retitled رژیم و ورزش; p0071 s7 and
+  the p0079 closing question reworded. Nine ezafe values for the new
+  sentences are corrected in `tools/ezafe_say.py` (the FIX list) and only
+  changed clips were re-rendered.

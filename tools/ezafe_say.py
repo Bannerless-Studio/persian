@@ -131,6 +131,20 @@ def main(argv):
         if spoken != t:
             out[t] = spoken
             log.append((t, spoken, pairs[::-1]))
+    # p0061+ review: adverbs, greetings and compounds the parser read as ezafe heads
+    new_texts = {sn["t"] for p in json.loads((pack / "passages.json").read_text(encoding="utf-8"))
+                 if p["id"] >= "p0061" for sn in p["sentences"]}
+    for t in list(out):
+        if t in new_texts:
+            fixed = out[t]
+            for bad, good in (("آخرِ کلاه", "آخر کلاه"), ("بدنِ درد", "بدن درد"), ("کوهِ هوا", "کوه هوا"),
+                              ("ثبت‌نامِ همان", "ثبت‌نام همان"), ("روزِ صبح", "روز صبح"), ("صبحِ زود", "صبح زود"),
+                              ("سلامِ آقای", "سلام آقای"), ("اولِ اینکه", "اول اینکه"), ("دومِ اینکه", "دوم اینکه")):
+                fixed = fixed.replace(bad, good)
+            if fixed == t:
+                del out[t]
+            else:
+                out[t] = fixed
     path = ROOT / "tools" / "audio_say.json"
     path.write_text(json.dumps(dict(sorted(out.items())), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     n_marks = sum(len(p) for _, _, p in log)

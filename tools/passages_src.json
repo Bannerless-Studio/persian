@@ -7195,8 +7195,8 @@
      "en": "What did Bahram have to do?",
      "type": "mc",
      "options": [
-      "یک کلید جدید برای خانه بخرد",
       "شب را در خانه‌ی دوستش بماند",
+      "یک کلید جدید برای خانه بخرد",
       "بیرون از خانه صبر کند",
       "با اتوبوس به ایستگاه برگردد"
      ],
@@ -7402,10 +7402,10 @@
      "en": "How did the writer feel from the morning on?",
      "type": "mc",
      "options": [
-      "از معلم ناراحت بود",
+      "از صبح خیلی خوشحال بود",
       "از صبح خسته و ناراحت بود",
       "از امتحان می‌ترسید",
-      "از صبح خیلی خوشحال بود"
+      "از معلم ناراحت بود"
      ],
      "answer": 2,
      "words": [
@@ -7458,8 +7458,8 @@
      "type": "mc",
      "options": [
       "به سینما",
-      "به مدرسه",
       "به خانه",
+      "به مدرسه",
       "به پارک"
      ],
      "answer": 3,
@@ -7653,9 +7653,9 @@
      "en": "Which city does the writer live in now?",
      "type": "mc",
      "options": [
-      "مشهد",
-      "شیراز",
       "تهران",
+      "شیراز",
+      "مشهد",
       "تبریز"
      ],
      "answer": 3,
@@ -7677,14 +7677,14 @@
      "sentence": 4
     },
     {
-     "q": "نویسنده از رضا چه می‌خواهد؟",
-     "en": "What does the writer ask of Reza?",
+     "q": "نویسنده برای تابستان آینده از رضا چه می‌خواهد؟",
+     "en": "What does the writer ask of Reza for next summer?",
      "type": "mc",
      "options": [
       "تابستان به دیدن او بیاید",
-      "برایش کمی پول بفرستد",
       "یک نامه برایش بفرستد",
-      "او را به یک شام دعوت کند"
+      "او را به یک شام دعوت کند",
+      "برایش کمی پول بفرستد"
      ],
      "answer": 0,
      "words": [
@@ -7775,9 +7775,9 @@
      "type": "mc",
      "options": [
       "با هواپیما",
-      "با قطار",
+      "با اتوبوس",
       "با قایق",
-      "با اتوبوس"
+      "با قطار"
      ],
      "answer": 2,
      "words": [
@@ -7848,8 +7848,8 @@
    ],
    "sentences": [
     [
-     "سوال: نیلوفر، شما قهرمان شهر شده‌اید. چه حسی دارید؟",
-     "Question: Niloufar, you have become the city champion. How do you feel?"
+     "سوال: نیلوفر، شما در مسابقه‌ی شهر اول شده‌اید. چه حسی دارید؟",
+     "Question: Niloufar, you came first in the city competition. How do you feel?"
     ],
     [
      "جواب: خیلی خوشحالم و به خودم افتخار می‌کنم.",
@@ -7894,9 +7894,9 @@
      "en": "What does Niloufar do every morning?",
      "type": "mc",
      "options": [
-      "فوتبال بازی می‌کند",
-      "شنا می‌کند",
       "می‌دود",
+      "شنا می‌کند",
+      "فوتبال بازی می‌کند",
       "کتاب می‌خواند"
      ],
      "answer": 1,
@@ -7922,8 +7922,8 @@
      "en": "What does Niloufar do for several hours each day?",
      "type": "mc",
      "options": [
-      "با دوستانش بازی می‌کند",
       "در خانه می‌خوابد",
+      "با دوستانش بازی می‌کند",
       "ورزش می‌کند",
       "فیلم می‌بیند"
      ],
@@ -8131,8 +8131,8 @@
      "en": "What did the writer send to Mashhad?",
      "type": "mc",
      "options": [
-      "پول و نامه",
       "لباس و کفش نو",
+      "پول و نامه",
       "کتاب و لباس",
       "غذا و میوه"
      ],
@@ -8203,14 +8203,14 @@
    "lv": "A2",
    "title": "باد و کلاه",
    "oop": {
-    "کیان": "name"
+    "سامان": "name"
    },
    "names": [
-    "کیان"
+    "سامان"
    ],
    "sentences": [
     [
-     "کیان یک کلاه سفید و بزرگ دارد که خیلی دوستش دارد.",
+     "سامان یک کلاه سفید و بزرگ دارد که خیلی دوستش دارد.",
      "Kian has a big white hat that he likes very much."
     ],
     [
@@ -8218,7 +8218,7 @@
      "One day he went to the park with his father and put the hat on his head."
     ],
     [
-     "یک دفعه باد قوی آمد و کلاه از سر کیان پرید.",
+     "یک دفعه باد قوی آمد و کلاه از سر سامان پرید.",
      "Suddenly a strong wind came and the hat flew off Kian's head."
     ],
     [
@@ -8226,7 +8226,7 @@
      "The hat rolled along the ground and hopped like a bird."
     ],
     [
-     "کیان با سرعت دنبال آن دوید، ولی کلاه همیشه کمی جلوتر بود.",
+     "سامان با سرعت دنبال آن دوید، ولی کلاه همیشه کمی جلوتر بود.",
      "Kian ran after it quickly, but the hat was always a little ahead."
     ],
     [
@@ -8234,7 +8234,7 @@
      "The people in the park saw this scene and burst out laughing."
     ],
     [
-     "پدر کیان هم دوید، اما او هم نتوانست کلاه را بگیرد.",
+     "پدر سامان هم دوید، اما او هم نتوانست کلاه را بگیرد.",
      "Kian's father ran too, but he could not catch the hat either."
     ],
     [
@@ -8242,17 +8242,17 @@
      "At last the hat reached a tree and stayed at the top of it."
     ],
     [
-     "مرد خوبی که آنجا بود، کلاه را برداشت و به کیان داد.",
+     "مرد خوبی که آنجا بود، کلاه را برداشت و به سامان داد.",
      "A good man who was there picked up the hat and gave it to Kian."
     ],
     [
-     "کیان گفت: «ممنون! از امروز کلاه را با دو دست نگه می‌دارم.»",
+     "سامان گفت: «ممنون! از امروز کلاه را با دو دست نگه می‌دارم.»",
      "Kian said: \"Thank you! From today I will hold the hat with both hands.\""
     ]
    ],
    "questions": [
     {
-     "q": "کلاه کیان چه رنگی است؟",
+     "q": "کلاه سامان چه رنگی است؟",
      "en": "What colour is Kian's hat?",
      "type": "mc",
      "options": [
@@ -8268,7 +8268,7 @@
      "sentence": 0
     },
     {
-     "q": "باد کلاه را از سر کیان برد.",
+     "q": "باد کلاه را از سر سامان برد.",
      "en": "The wind took the hat off Kian's head.",
      "type": "tf",
      "options": null,
@@ -8287,7 +8287,7 @@
       "روی یک ماشین",
       "در آب",
       "بالای یک درخت",
-      "در دست پدر کیان"
+      "در دست پدر سامان"
      ],
      "answer": 2,
      "words": [
@@ -8296,7 +8296,7 @@
      "sentence": 7
     },
     {
-     "q": "مردم پارک وقتی کیان می‌دوید ناراحت شدند.",
+     "q": "مردم پارک وقتی سامان می‌دوید ناراحت شدند.",
      "en": "The people in the park became upset when Kian ran.",
      "type": "tf",
      "options": null,
@@ -8307,7 +8307,7 @@
      "sentence": 5
     },
     {
-     "q": "یک مرد در پارک کلاه را پیدا کرد و به کیان داد.",
+     "q": "یک مرد در پارک کلاه را پیدا کرد و به سامان داد.",
      "en": "A man in the park found the hat and gave it to Kian.",
      "type": "tf",
      "options": null,
@@ -8356,7 +8356,7 @@
      "Schools and universities are closed today and some employees are working from home."
     ],
     [
-     "همسایه‌ها به هم کمک کردند و برای کسانی که به غذا و چراغ نیاز داشتند، آن‌ها را بردند.",
+     "همسایه‌ها به هم کمک کردند و برای کسانی که به غذا و چراغ نیاز داشتند، غذا و چراغ بردند.",
      "Neighbours helped each other and took food and lamps to those who needed them."
     ],
     [
@@ -8468,11 +8468,11 @@
      "Question: What is the hardest part of your work?"
     ],
     [
-     "جواب: شب‌ها نخوابیدن و مواظب بیمار‌ها بودن. گاهی تا صبح نمی‌خوابیم.",
+     "جواب: شب‌ها نخوابیدن و مواظب بیمارها بودن. گاهی تا صبح نمی‌خوابیم.",
      "Answer: Not sleeping at night and looking after the patients. Sometimes we don't sleep until morning."
     ],
     [
-     "سوال: با بیمار‌هایی که می‌ترسند چه می‌کنید؟",
+     "سوال: با بیمارهایی که می‌ترسند چه می‌کنید؟",
      "Question: What do you do with patients who are afraid?"
     ],
     [
@@ -8484,7 +8484,7 @@
      "Question: Your work takes a lot of effort, doesn't it?"
     ],
     [
-     "جواب: بله، اما وقتی بیماری حالش بهتر می‌شود و از ما تشکر می‌کند، همه‌ی زحمت من از بین می‌رود.",
+     "جواب: بله، اما وقتی یک بیمار حالش بهتر می‌شود و از ما تشکر می‌کند، همه‌ی زحمت من از بین می‌رود.",
      "Answer: Yes, but when a patient gets better and thanks us, all my trouble disappears."
     ],
     [
@@ -8515,7 +8515,7 @@
      "sentence": 1
     },
     {
-     "q": "به نظر مینا، نخوابیدن در شب و مواظب بیمار‌ها بودن سخت است.",
+     "q": "به نظر مینا، نخوابیدن در شب و مواظب بیمارها بودن سخت است.",
      "en": "In Mina's view, staying awake at night with patients is hard.",
      "type": "tf",
      "options": null,
@@ -8527,7 +8527,7 @@
      "sentence": 3
     },
     {
-     "q": "مینا اول با بیمار‌هایی که می‌ترسند چه کار می‌کند؟",
+     "q": "مینا اول با بیمارهایی که می‌ترسند چه کار می‌کند؟",
      "en": "What does Mina do first with frightened patients?",
      "type": "mc",
      "options": [
@@ -8751,10 +8751,10 @@
      "en": "How did the writer feel at the airport?",
      "type": "mc",
      "options": [
-      "کاملاً آرام بود",
+      "خسته و ناراحت بود",
       "نگران و عصبی بود",
-      "خیلی خوشحال بود",
-      "خسته و ناراحت بود"
+      "کاملاً آرام بود",
+      "خیلی خوشحال بود"
      ],
      "answer": 1,
      "words": [
@@ -8953,7 +8953,7 @@
      "Many people say they have no time to read."
     ],
     [
-     "اما مطالعه فقط برای دانشجو‌ها نیست و هر کس می‌تواند از آن لذت ببرد.",
+     "اما مطالعه فقط برای دانشجوها نیست و هر کس می‌تواند از آن لذت ببرد.",
      "But reading is not only for students and anyone can enjoy it."
     ],
     [
@@ -9008,7 +9008,7 @@
      "sentence": 2
     },
     {
-     "q": "متن می‌گوید مطالعه فقط کار دانشجو‌ها است.",
+     "q": "متن می‌گوید مطالعه فقط کار دانشجوها است.",
      "en": "The text says reading is only for students.",
      "type": "tf",
      "options": null,
@@ -9065,7 +9065,7 @@
   {
    "id": "p0077",
    "lv": "B1",
-   "title": "پیش دکتر",
+   "title": "رژیم و ورزش",
    "oop": {
     "احمدی": "name"
    },
@@ -9250,10 +9250,10 @@
      "en": "What were the villagers afraid of?",
      "type": "mc",
      "options": [
-      "از باران و باد",
-      "از شب و گرگ‌ها",
       "از هوای سرد کوه",
-      "از آب رودخانه"
+      "از شب و گرگ‌ها",
+      "از آب رودخانه",
+      "از باران و باد"
      ],
      "answer": 1,
      "words": [
@@ -9362,8 +9362,8 @@
      "Answer: I look for a similar phrase in the other language or I explain it."
     ],
     [
-     "سوال: به کسانی که می‌خواهند مترجم شوند چه توصیه‌ای دارید؟",
-     "Question: What advice do you have for those who want to become translators?"
+     "سوال: برای شروع این کار چه پیشنهادی دارید؟",
+     "Question: What do you suggest for starting this work?"
     ],
     [
      "جواب: مطالعه کنند و هر روز تکرار کنند. بدون تلاش و تکرار، هیچ کس مترجم خوبی نمی‌شود.",
@@ -9405,10 +9405,10 @@
      "en": "What happens if we translate an old saying word for word?",
      "type": "mc",
      "options": [
+      "مترجم پول بیشتری می‌گیرد",
       "جمله خیلی طولانی می‌شود",
-      "همه آن را دوست دارند",
       "آن را درست درک نمی‌کنند",
-      "مترجم پول بیشتری می‌گیرد"
+      "همه آن را دوست دارند"
      ],
      "answer": 2,
      "words": [
