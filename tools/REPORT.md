@@ -43,17 +43,16 @@ Levels: {'A1': 600, 'A2': 700, 'B1': 700}. POS: {'noun': 1183, 'adj': 311, 'verb
 
 ## Sentences
 
-- Final sentences: **3,164**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
-- Sentence ids (`tools/sentence_ids_v1.json`): 3,164 kept, 0 new, 13 retired.
+- Final sentences: **3,179**, 0 with audio (`https://tatoeba.org/audio/download/<audio_id>`).
+- Sentence ids (`tools/sentence_ids_v1.json`): 3,179 kept, 0 new, 16 retired.
 - Word coverage: 0 = 0, 1 = 7, 2 = 1993.
-- `tools/bad_sentences.txt`: 2 entries matched no corpus row: 'اما پر هایش رنگ روشن دارد و به زودی پیدا شده می\u200cتواند.', 'او چطور در یک زمان هم بسیار بزرگ و هم بسیار کوچک بوده می\u200cتواند؟'.
-- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 5,728. Rejected for a content lemma outside pack/top-3000: 3,721.
-- Primary word level of each sentence: {'B1': 1195, 'A2': 1164, 'A1': 805}.
+- Candidate sentences (terminal punctuation, 3-14 tokens, content lemmas in pack/top-3000, >=1 link): 5,743. Rejected for a content lemma outside pack/top-3000: 3,727.
+- Primary word level of each sentence: {'B1': 1200, 'A2': 1168, 'A1': 811}.
 - Token-length distribution of the final set:
 
 | tokens | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| sentences | 56 | 312 | 909 | 768 | 527 | 263 | 137 | 88 | 41 | 35 | 15 | 13 |
+| sentences | 56 | 312 | 912 | 772 | 529 | 264 | 138 | 90 | 41 | 37 | 15 | 13 |
 
 ## Top 100 by rank (lemma [pos] gloss)
 

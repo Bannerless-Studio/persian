@@ -192,10 +192,6 @@
       }
     ]
   },
-  "audio": {
-    "voice": "fa_IR-ganji_adabi-medium",
-    "version": 2
-  },
   "eta": {
     "curve": [
       [
@@ -559,5 +555,9 @@
         ]
       ]
     }
+  },
+  "audio": {
+    "voice": "fa_IR-ganji_adabi-medium",
+    "version": 2
   }
 }

@@ -33,3 +33,5 @@
 او خوش نداشت که کسی بالایش فریاد بزند.  # She doesn't like being yelled at.
 فعلا جیتو نمی‌تواند مطالعه کند.  # Now Jitu can't read at all.
 ایا اینجا کسی؟  # Is there anyone?
+مادرش می‌پرسد: "رویا جان, آیا آفتاب زرد رنگ آمیزی نمی‌شود؟"  # "Shouldn't the sun be yellow, dear?" asks her mother.
+کتاب گفت:«آه تارا، این قسم نی!»  # "Oh my, Tra, not like that!" said the book.

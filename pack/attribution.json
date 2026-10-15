@@ -124,7 +124,7 @@
     "licence": "CC-BY-4.0",
     "url": "https://www.letsreadasia.org/",
     "note": "The text is Dari (Afghan Persian); the rest of the pack is Iranian Persian (Tatoeba). Sentences are split out of the book text, Persian and English realigned sentence by sentence; typographic quotes became plain, Arabic yeh and kaf became Persian letters, detached می/نمی were joined with a ZWNJ, direction marks were removed, and a missing stop at the end of a book page was added (taken from the English page); nothing else was changed.",
-    "count": 139,
+    "count": 154,
     "stories": [
       {
         "id": "078b0bd9-81af-49f4-bd06-3a62f1b97016",
